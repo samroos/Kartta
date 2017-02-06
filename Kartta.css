@@ -1,0 +1,83 @@
+﻿/* CSS */
+
+.km-selectionButtons {
+	top:	6.5px;
+	right:	6.5px;
+}
+
+button.km-button {
+	height:	1.375em;
+	width:	8.25em;
+	padding-left: 7px;
+	text-align: left;
+}
+
+button.km-buttonClear {
+	margin-top: 0.275em;
+}
+
+.km-buttonText {
+	display: inline-block;
+	margin: 0 2px 0 2px;
+	height: 100%;
+	line-height: 1.375em;
+	vertical-align: top;
+}
+
+.km-buttonImg {
+	margin: 5px 2px 5px 5px;
+	height: 10px;
+	max-width: auto;
+	display: inline-block;
+}
+
+.ol-popup {
+	position: absolute;
+	background-color: white;
+	-webkit-filter: drop-shadow(0 1px 4px rgba(0,0,0,0.2));
+	filter: drop-shadow(0 1px 4px rgba(0,0,0,0.2));
+	padding: 15px;
+	border-radius: 10px;
+	border: 1px solid #cccccc;
+	bottom: 12px;
+	left: -50px;
+	min-width: 140px;
+}
+
+.ol-popup:after, .ol-popup:before {
+	top: 100%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+.ol-popup:after {
+	border-top-color: white;
+	border-width: 10px;
+	left: 48px;
+	margin-left: -10px;
+}
+.ol-popup:before {
+	border-top-color: #cccccc;
+	border-width: 11px;
+	left: 48px;
+	margin-left: -11px;
+}
+.ol-popup-closer {
+	text-decoration: none;
+	position: absolute;
+	top: 2px;
+	right: 8px;
+}
+.ol-popup-closer:after {
+	content: "✖";
+}
+
+.qv-object-header {
+	padding: 0px!important;
+}
+.qv-object-title {
+	margin: 0px!important;
+}
